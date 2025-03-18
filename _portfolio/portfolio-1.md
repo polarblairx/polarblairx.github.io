@@ -9,5 +9,6 @@ collection: portfolio
 ---
 
 <p float="left">
-  <br/><img align="top" src="/images/IMG_1155.jpeg" width="50%"> <img align="top" src="/images/IMG_1156.jpeg" width="50%"/>
+  <br/><img align="top" src="/images/IMG_1155.jpeg" width="49%"> 
+  <img align="top" src="/images/IMG_1156.jpeg" width="49%"/>
 </p>
