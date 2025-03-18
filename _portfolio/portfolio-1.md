@@ -1,5 +1,7 @@
 ---
-excerpt: "*Cephalozia connivens*"
+excerpt: "<p float='top'> 
+  '*Cephalozia connivens*'
+</p>"
 title: "<p float='left'>
   <br/><img src='/images/IMG_1155.jpeg' width='400'/>
 </p>"
