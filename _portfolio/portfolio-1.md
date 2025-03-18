@@ -2,6 +2,7 @@
 title: "<p float='left'>
   <br/><img align='top' src='/images/IMG_1155.jpeg' width='400'/>
 </p>"
+excerpt: "Cephalozia connivens"
 
 collection: portfolio
 ---
