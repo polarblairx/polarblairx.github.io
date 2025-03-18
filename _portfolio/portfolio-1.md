@@ -1,6 +1,6 @@
 ---
 title: "Cephalozia connivens"
-excerpt: "<br/><img src='/images/IMG_1155.jpeg' width='200'>" "<br/><img src='/images/IMG_1156.jpeg' width='200'>"
+excerpt: "<br/><img src='/images/IMG_1155.jpeg' width='200'> <br/><img src='/images/IMG_1156.jpeg' width='200'>"
 collection: portfolio
 ---
 
