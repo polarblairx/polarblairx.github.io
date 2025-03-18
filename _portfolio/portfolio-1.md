@@ -1,7 +1,7 @@
 ---
-excerpt: "*_Cephalozia connivens_*"
+excerpt: "*Cephalozia connivens*"
 title: "<p float='left'>
-  <br/><img align='top' src='/images/IMG_1155.jpeg' width='400'/>
+  <br/><img src='/images/IMG_1155.jpeg' width='400'/>
 </p>"
 
 
