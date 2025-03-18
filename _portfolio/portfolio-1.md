@@ -1,6 +1,6 @@
 ---
 title: "Cephalozia connivens"
-excerpt: "![IMG_1155](https://github.com/polarblairx/polarblairx.github.io/blob/master/IMG_1155.jpeg)"
+excerpt: "(https://github.com/polarblairx/polarblairx.github.io/blob/master/IMG_1155.jpeg)"
 collection: portfolio
 ---
 
