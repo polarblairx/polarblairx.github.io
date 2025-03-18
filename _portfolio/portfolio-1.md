@@ -1,6 +1,6 @@
 ---
 title: "*Cephalozia pleniceps*"
-excerpt: "<p float='right'>
+excerpt: "<p float='left'>
   <img src='/images/IMG_0004.jpg' width='45%'/>
 </p>"
 
