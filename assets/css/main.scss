@@ -68,12 +68,12 @@
 
 /* Portfolio item styles */
 .portfolio-item {
-  flex: 1 1 calc(100% - 16px); /* Two items per row, adjust the width of the items as needed */
+  flex: 1 1 calc(50% - 16px); /* Two items per row, adjust the width of the items as needed */
   box-sizing: border-box;
 }
 
 .portfolio-item img {
-  max-width: 45%;
+  max-width: 40%;
   height: auto;
   display: block;
   margin: 0 auto;
