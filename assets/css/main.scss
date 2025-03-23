@@ -41,29 +41,34 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Example CSS for the sidebar */
+/* Sidebar styles */
 .sidebar {
-  width: 250px; /* Adjust the width of the sidebar as needed */
+  width: 250px; /* Adjust as needed */
   position: fixed;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #f4f4f4; /* Adjust the background color as needed */
+  background-color: #f4f4f4; /* Adjust as needed */
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* CSS for the portfolio container */
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px; /* Adjust the gap between items as needed */
+/* Main content styles */
+.main-content {
   margin-left: 270px; /* Adjust this to be slightly more than the sidebar width */
   padding: 20px; /* Optional: Add padding for better spacing */
 }
 
+/* Portfolio container styles */
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between items as needed */
+}
+
+/* Portfolio item styles */
 .portfolio-item {
-  flex: 1 1 calc(33.333% - 16px); /* Adjust the width of the items as needed */
+  flex: 1 1 calc(50% - 16px); /* Two items per row, adjust the width of the items as needed */
   box-sizing: border-box;
 }
 
