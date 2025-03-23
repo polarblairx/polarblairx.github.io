@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: <object data="polarblairx.github.io/images/Young-CV-Jan2025.pdf" width="1000" height="1000" type='application/pdf'></object>
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-
+ <object data="polarblairx.github.io/images/Young-CV-Jan2025.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 
 
