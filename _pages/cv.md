@@ -7,9 +7,8 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# {% include base_path %}
 
-excerpt: 
-"<p float='middle'>
-  <object data='Young-CV-Jan2025.pdf' width='800' height='800' type='application/pdf'/>
-</p>"
+
+<object data="Young-CV-Jan2025.pdf" width="800" height="800" type="application/pdf"/>
+
