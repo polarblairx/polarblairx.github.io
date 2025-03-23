@@ -12,19 +12,31 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "table" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+<table class="portfolio-table">
+  <tr>
+    {% for item in site.portfolio %}
+      <td class="portfolio-item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          {% if include.type == "grid" and item.teaser %}
+            <div class="archive__item-teaser">
+              <img src=
+                {% if item.teaser contains "://" %}
+                  "{{ item.teaser }}"
+                {% else %}
+                  "{{ item.teaser | prepend: "/images/" | prepend: site.baseurl }}"
+                {% endif %}
+                alt="">
+            </div>
           {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+          <!-- Add other portfolio item details here -->
+        </article>
+      </td>
+      {% if forloop.index0 % 3 == 2 %}
+        </tr><tr>
+      {% endif %}
+    {% endfor %}
+  </tr>
+</table>
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
