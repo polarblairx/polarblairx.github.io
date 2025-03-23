@@ -68,7 +68,7 @@
 
 /* Portfolio item styles */
 .portfolio-item {
-  flex: 1 1 calc(50% - 16px); /* Two items per row, adjust the width of the items as needed */
+  flex: 1 1 calc(100% - 16px); /* Two items per row, adjust the width of the items as needed */
   box-sizing: border-box;
 }
 
