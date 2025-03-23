@@ -59,7 +59,7 @@ author:
  # keybase          : # Username
   instagram        : "polarblairx"
  # lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/blair-young-4995a0291"
+  linkedin         : "blair-young-4995a0291"
  # mastodon         : # URL
  # medium           : # URL
  # pinterest        : # Username
@@ -214,7 +214,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
