@@ -12,25 +12,27 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="portfolio-container">
-  {% for item in site.portfolio %}
-    <div class="portfolio-item">
-      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if item.teaser %}
-          <div class="archive__item-teaser">
-            <img src=
-              {% if item.teaser contains "://" %}
-                "{{ item.teaser }}"
-              {% else %}
-                "{{ item.teaser | prepend: "/images/" | prepend: site.baseurl }}"
-              {% endif %}
-              alt="">
-          </div>
-        {% endif %}
-        <!-- Add other portfolio item details here -->
-      </article>
-    </div>
-  {% endfor %}
+<div class="main-content">
+  <div class="portfolio-container">
+    {% for item in site.portfolio %}
+      <div class="portfolio-item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          {% if item.teaser %}
+            <div class="archive__item-teaser">
+              <img src=
+                {% if item.teaser contains "://" %}
+                  "{{ item.teaser }}"
+                {% else %}
+                  "{{ item.teaser | prepend: "/images/" | prepend: site.baseurl }}"
+                {% endif %}
+                alt="">
+            </div>
+          {% endif %}
+          <!-- Add other portfolio item details here -->
+        </article>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 <h2 class="archive__item-title" itemprop="headline">
