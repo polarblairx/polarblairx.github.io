@@ -41,21 +41,13 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-.portfolio-table {
-  width: 100%;
-  border-collapse: collapse;
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between items as needed */
 }
 
 .portfolio-item {
-  border: 1px solid #ddd;
-  padding: 16px;
-  text-align: center;
-  vertical-align: top;
-}
-
-.portfolio-item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  flex: 1 1 calc(33.333% - 16px); /* Adjust the width of the items as needed */
+  box-sizing: border-box;
 }
