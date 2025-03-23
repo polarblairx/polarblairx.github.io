@@ -46,16 +46,16 @@
   width: 250px; /* Adjust as needed */
   position: fixed;
   left: 0;
-  top: 0;
+  top: 60px; /* Adjust this value to the height of your top navigation bar */
   bottom: 0;
   background-color: #f4f4f4; /* Adjust as needed */
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* Main content styles */
+/* Ensure main content has enough left margin to accommodate the sidebar */
 .main-content {
-  margin-left: 270px; /* Adjust this to be slightly more than the sidebar width */
+  margin-left: 270px; /* Adjust this value to be slightly more than the sidebar width */
   padding: 20px; /* Optional: Add padding for better spacing */
 }
 
