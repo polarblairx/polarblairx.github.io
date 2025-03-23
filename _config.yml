@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Blair C. Young / Bryologist"
 title_separator          : "-"
 name                     : &name "Blair C. Young"
-description              : &description "xxx"
+description              : &description ""
 url                      : https://polarblairx.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/Profile.jpeg"
   name             : "Blair C. Young"
   pronouns         : "she/her"  
   bio              : "I am a PhD student in the Struwe & White Labs studying endophytic bacteria in bryophytes. I'm also a field bryologist for the NJDEP working on cataloguing the state's bryo-flora"
