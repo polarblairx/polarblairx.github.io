@@ -46,34 +46,33 @@
   width: 250px; /* Adjust as needed */
   position: fixed;
   left: 0;
-  top: 30px; /* Adjust this value to the height of your top navigation bar */
+  top: 60px; /* Adjust this value to the height of your top navigation bar */
   bottom: 0;
   background-color: #f4f4f4; /* Adjust as needed */
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* Ensure main content has enough left margin to accommodate the sidebar */
+/* Main content styles */
 .main-content {
-  margin-left: 500px; /* Adjust this value to be slightly more than the sidebar width */
+  margin-left: 270px; /* Adjust this value to be slightly more than the sidebar width */
   padding: 20px; /* Optional: Add padding for better spacing */
 }
 
 /* Portfolio container styles */
 .portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two columns */
   gap: 16px; /* Adjust the gap between items as needed */
 }
 
 /* Portfolio item styles */
 .portfolio-item {
-  flex: 1 1 calc(50% - 16px); /* Two items per row, adjust the width of the items as needed */
   box-sizing: border-box;
 }
 
 .portfolio-item img {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
