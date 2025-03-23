@@ -40,3 +40,22 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.portfolio-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.portfolio-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
