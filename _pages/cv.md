@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<p float="middle">
-  <object data="Young-CV-Jan2025.pdf" width="1000" height="1000" type='application/pdf'/>
-</p>
+excerpt: 
+"<p float='middle'>
+  <object data='Young-CV-Jan2025.pdf' width='800' height='800' type='application/pdf'/>
+</p>"
