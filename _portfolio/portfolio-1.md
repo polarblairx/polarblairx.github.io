@@ -1,5 +1,5 @@
 ---
-title: "*Cephalozia pleniceps*"
+title: "*Cephalozia pleniceps* (State Record)"
 excerpt: "<p float='left'>
   <img src='/images/IMG_0004.jpg' width='45%'/>
 </p>"
