@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+
+
 I am a Ph.D. student in the Ecology & Evolution program at Rutgers University under Dr. Lena Struwe. My research focuses on mutualistic interactions of endophytic bacteria in bryophytes. Currently, I am studying bacteria present within the oil bodies of some liverwort species.
 
 Otherwise, I am also a field bryologist for the NJDEP, where I focus on making species lists to document the bryophyte flora of New Jersey. In this capacity I have rediscovered several historical species that have not been documented in the state for over 100 years, as well as some new species that have never been documented in the state. 
