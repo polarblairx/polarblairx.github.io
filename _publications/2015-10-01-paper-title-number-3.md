@@ -3,7 +3,7 @@ title: "Endophytic bacteria discovered in oil body organelles of the liverworts 
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt:
 date: 2025-03-11
 venue: 'American Journal of Botany'
 slidesurl: 
