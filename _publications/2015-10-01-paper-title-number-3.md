@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "Endophytic bacteria discovered in oil body organelles of the liverworts Marchantia polymorpha and Radula complanata"
 collection: publications
 category: manuscripts
 permalink: (https://doi.org/10.1002/ajb2.70017)
