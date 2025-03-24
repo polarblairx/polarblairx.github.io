@@ -2,7 +2,7 @@
 title: "Paper Title Number 3"
 collection: publications
 category: manuscripts
-permalink: https://doi.org/10.1002/ajb2.70017
+permalink: (https://doi.org/10.1002/ajb2.70017)
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2015-10-01
 venue: 'Journal 1'
