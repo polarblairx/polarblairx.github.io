@@ -7,7 +7,7 @@ excerpt: 'This paper is about the number 3. The number 4 is left for future work
 date: 2025-03-11
 venue: 'American Journal of Botany'
 slidesurl: 
-paperurl: '[https://doi.org/10.1002/ajb2.70017)](https://doi.org/10.1002/ajb2.70017)'
+paperurl: '[https://doi.org/10.1002/ajb2.70017](https://doi.org/10.1002/ajb2.70017)'
 citation: 'Young, B. C., B. Thiers, J. F. White, and L. Struwe. 2025. Endophytic bacteria discovered in oil body organelles of the liverworts Marchantia polymorpha and Radula complanata. American Journal of Botany 112(3): e70017.'
 ---
 
