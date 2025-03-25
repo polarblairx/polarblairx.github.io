@@ -247,15 +247,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -270,7 +261,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: double
       author_profile: true
       share: true
       comment: true
